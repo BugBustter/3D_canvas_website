@@ -1,0 +1,275 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    width:100vw;
+    height:100vh;
+    background-color: #F1F1F1;
+    position: relative;
+}
+#page1>h3{
+    position: absolute;
+    font-weight: 100;
+    top:63%;
+    left:4.2%;
+    width:40%;
+    font-size:15px;
+    color:rgb(96, 94, 94)
+}
+#page1>h4{
+    position: absolute;
+    font-weight: 100;
+    top:70%;
+    left:25%;
+    width:40%;
+    font-size:15px;
+    color:rgb(96, 94, 94)
+}
+#page2{
+    width:100vw;
+    height:100vh;
+    background-color: #F1F1F1;
+    position: relative;
+}
+#page2 #left{
+    width: 30%;
+    height:40%;
+    top:25%;
+    left:5%;
+ position: absolute;
+    
+}
+#left .text{
+ width:50%;
+ height:20%;
+ background-color: black;
+ color:white;
+ margin-bottom: 20px;
+ align-items: center;
+ justify-content: center;
+ font-size:33px;
+ padding: 7px 10px;
+ font-weight:500;
+ border:2.5px solid aqua
+}
+#left #box{
+    width:85%;
+}
+#left>h3{
+    margin-bottom:20px;
+    font-weight: 100;
+}
+#page2 #right{
+    width: 30%;
+    height:40%;
+    top:25%;
+    left:5%;
+ position: absolute;
+    
+}
+#right .text{
+ width:50%;
+ height:20%;
+ background-color: black;
+ color:white;
+ margin-bottom: 20px;
+ align-items: center;
+ justify-content: center;
+ font-size:33px;
+ padding: 7px 10px;
+ font-weight:500;
+ border:2.5px solid aqua
+}
+#right #box{
+    width:85%;
+    padding-left:60px;
+}
+#right>h3{
+    margin-bottom:20px;
+    font-weight: 100;
+}
+#page2 #right{
+    position: relative;
+    width:30%;
+    height:35%;
+    top:48%;
+    left:72%;
+    position:absolute;
+}  
+#right #box1{
+    width:70%;
+ margin-left:10%;
+ padding-left:20px;
+}  
+#right #box2{
+    width:70%;
+    margin-left:10%;
+   } 
+ #right>h3{
+    margin-left: 20%;
+    font-weight: 100;
+ }
+#page3{
+    width:100vw;
+    height:100vh;
+    background-color: #F1F1F1;
+    position: relative;
+}
+#page3 #page3-left{
+    position: absolute;
+    width:20%;
+    height: 30%;
+    top:40%;
+    left:5%
+}
+#page3-left .text1{
+    width:80%;
+    height:25%;
+    background-color: black;
+    color:white;
+    margin-bottom:15px;
+    font-size:33px;
+    padding: 5px 10px;
+    font-weight:500;
+    border:2.5px solid aqua
+}
+#page3-left>h3{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+#page3-left #box01{
+    width:40%;
+}
+#page3-left #box02{
+    width:70%;
+}
+#page3 #page3-right{
+    position: absolute;
+    top:55%;
+    left:60%;
+    width:40%;
+    height:12%;
+}
+#page3-right>h3{
+    font-size:14px;
+    font-weight: 100;
+    color:grey;
+    text-transform: uppercase;
+    line-height:20px;
+}
+#page4{
+    width:100vw;
+    height:100vh;
+    background-color: #F1F1F1;
+    position: relative;
+}
+#page4 #page4-left{
+    position: absolute;
+    width:20%;
+    height: 30%;
+    top:40%;
+    left:5%
+}
+#page4-left .text1{
+    width:80%;
+    height:25%;
+    background-color: black;
+    color:white;
+    margin-bottom:15px;
+    font-size:33px;
+    padding: 5px 10px;
+    font-weight:500;
+    border:2.5px solid aqua
+}
+#page4-left>h3{
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+#page4-left #box01{
+    width:40%;
+}
+#page4-left #box02{
+    width:70%;
+}
+#page4 #page4-right{
+    position: absolute;
+    top:55%;
+    left:60%;
+    width:40%;
+    height:12%;
+}
+#page4-right>h3{
+    font-size:14px;
+    font-weight: 100;
+    color:grey;
+    text-transform: uppercase;
+    line-height:20px;
+}
+canvas{
+    max-width:100vw;
+    max-height:100vh;
+    position:relative;
+    z-index:9999;
+}
+#loop{
+   position: absolute;
+    display: flex;
+    top: 30%;
+    width:100%;
+    height:30%;
+    font-size: 100px;
+    white-space: nowrap;
+}
+#loop>h1{
+font-weight: 500;
+animation-name: anim;
+animation-duration: 30s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+#loop>h1>span{
+    -webkit-text-stroke: 1.8px black;
+    color:transparent
+}
+@keyframes anim {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#nav{
+    padding:5px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:8%;
+    position: fixed;
+    z-index: 9;
+}
+#nav>h3{
+    font-size:30px;
+}
+#nav>h3>span{
+    -webkit-text-stroke: 0.8px black;
+     color:transparent
+}
+#nav>button{
+    padding: 8px 5px;
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+    font-weight:400;
+}
