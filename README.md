@@ -11,9 +11,7 @@
 
 # 🌐 Live Demo
 
-**🔗 Live Website:** https://your-live-demo-link.com
-
-**🎥 Demo Video:** https://your-demo-video-link.com
+**🔗 Live Website:** https://3-d-canvas-website.vercel.app/
 
 ---
 
