@@ -17,6 +17,10 @@
 
 ---
 
+
+## Screenshot
+<img width="1401" height="1123" alt="ChatGPT Image Jun 15, 2026, 07_16_28 AM" src="https://github.com/user-attachments/assets/6c57a3c2-218c-4b45-879f-ce12b7d064b0" />
+
 # 📌 Overview
 
 3D Canvas Website is a modern and interactive web application that leverages real-time 3D graphics and animations to create an engaging user experience. The project showcases immersive visual effects, smooth interactions, and responsive design using modern web technologies.
